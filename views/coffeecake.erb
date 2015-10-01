@@ -1,0 +1,39 @@
+<head>
+<style>
+@media (min-width:<%=200 * @param%>px) {
+.box {
+  width:<%=100/@param%>%;
+}
+}
+</style>
+</head>
+<% while @param > 0 do %>
+<div class="box fluid" name="coffee_div">
+  <table width="100%" padding="10" class="solid">
+    <tbody>
+      <tr>
+        <td><h1>Coffee Cake</h1></td>
+      </tr>
+      <tr>
+        <td class="dashed"><img src="http://i.huffpost.com/gadgets/slideshows/330371/slide_330371_3253003_free.jpg" width="100%"/></td>
+      </tr>
+      <tr>
+        <td class="dashed">
+          <div class="yellow"><h2>Ingredients</h2>
+          <ul>
+            <li>sugar</li>
+            <li>butter or margarine</li>
+            <li>3 eggs</li>
+            <li>flour</li>
+            <li>baking powder</li>
+            <li>hot water</li>
+            <li>instant coffee</li>
+          </ul>
+        </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    <%@param -= 1%>
+<%end%>
