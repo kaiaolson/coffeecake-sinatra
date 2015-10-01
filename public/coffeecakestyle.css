@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.fluid {
+  float:left;
+  display: block;
+}
+.box {
+  width: 100%;
+  min-width: 200px;
+}
+.yellow {
+  background-color: #ffffc4;
+  padding: 20px;
+}
+.dashed {
+  border-top: 2px dashed #888888;
+  padding: 10px;
+  margin:10px;
+}
+.solid {
+  border: 2px solid #888888;
+}
+h1 {
+  color: orange;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width:600px) {
+.box {
+  margin-left:0;
+}
+}
