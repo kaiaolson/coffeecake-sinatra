@@ -12,5 +12,5 @@ Then run with:
 
 View at: http://localhost:4567
 
-It is recommended to also run <pre>gem install thin</pre>, which Sinatra will pick up if available.
+It is recommended to also run <code>gem install thin</code>, which Sinatra will pick up if available.
 
