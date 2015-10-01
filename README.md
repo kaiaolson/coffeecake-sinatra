@@ -4,9 +4,9 @@ This responsive Sinatra web app generates a given number of divs and scales them
 #Sinatra
 First, make sure you have Sinatra installed:
 
-gem install sinatra
+<pre>gem install sinatra</pre>
 
 Then run this application with: 
 
-ruby coffee_cake_app.rb
+<pre>ruby coffee_cake_app.rb</pre>
 
