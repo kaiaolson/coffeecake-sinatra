@@ -29,8 +29,3 @@ h1 {
   padding-bottom: 30px;
 }
 
-@media (min-width:600px) {
-.box {
-  margin-left:0;
-}
-}
