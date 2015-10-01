@@ -1,4 +1,4 @@
-# Coffee Cake - A Sinatra web application
+# Coffee Cake
 This responsive Sinatra web app generates a given number of divs and scales them to fit within the page width.
 
 <h2>Getting Started</h2>
